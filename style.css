@@ -1,0 +1,42 @@
+#container1{
+    background-color: #1C343C;
+    color: azure;
+    border: 3px solid black;
+}
+
+.card .img-box {
+    display: flex;
+    justify-content: center;
+    height: 10em !important;
+   
+    margin: 30px auto 0 auto !important;
+    object-fit: scale-down;
+}
+.img-box img{
+    border-radius: 10px !important;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+}
+.card-body{
+    padding-bottom: 40px !important;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+.card{
+    background-image: linear-gradient(to left, #515F5B , #C7BA98 ) !important;
+    color: aliceblue !important;
+    border-radius: 10px !important;
+    margin-bottom:20px !important ;
+}
+.card-header{
+    text-transform: uppercase !important;
+    background-color: black !important;
+}
+.btn{
+    border: 3px solid aliceblue !important;
+    color: azure !important;
+    
+}
